@@ -16,7 +16,7 @@ jobs:
           api_token: ${{ secrets.BRIGHT_TOKEN }}
           hostname: app.brightsec.com
           name: Bright Scan - ${{ github.sha }}
-          restart_scan: ntDMV9LTCB2fDw8a69e531
+          restart_scan: wV2hD2N4cnEqNVVTpYTYNW
       - name: Wait for breakpoint
         id: wait
         uses: NeuraLegion/wait-for@release
